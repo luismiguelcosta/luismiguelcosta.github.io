@@ -1,0 +1,12 @@
+Para instalar e compilar Sass (Scss para Css):
+
+no terminal:
+
+entrar na pasta do projeto: cd ~/Personal/costaluis-website
+
+instalar Sass: npm install -g sass (para instalar com npm)
+
+iniciar a compilar cada vez que salvo o ficheiro .scss: sass --watch main.scss css/main.css
+
+
+
