@@ -25,9 +25,13 @@
 
 // Changing words with typewriter effect
 
+h2#typed-text-title {
+  // background-color: #A4D2FA;
+  color: #A4D2FA;
+}
 .typewriter-container h2 span.cursor {
   display: inline-block;
-  background-color: #888888;
+  background-color: #A4D2FA;
   margin-left: 0.1rem;
   width: 1px;
   animation: blink 1s infinite;
@@ -36,11 +40,11 @@
   animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #888888; }
-  49% { background-color: #888888; }
+  0%  { background-color: #A4D2FA; }
+  49% { background-color: #A4D2FA; }
   50% { background-color: transparent; }
   99% { background-color: transparent; }
-  100%  { background-color: #888888; }
+  100%  { background-color: #A4D2FA; }
 }
 
 // General
@@ -157,4 +161,10 @@
   background-color: #A4D2FA;
   color: #666666;
   border: 2px solid #A4D2FA;
+}
+
+// Slider
+
+.image-description {
+  margin-top: 15px;
 }
