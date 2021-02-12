@@ -1,0 +1,33 @@
+Para instalar e compilar Sass (Scss para Css):
+
+no terminal:
+
+entrar na pasta do projeto: cd ~/Personal/costaluis-website
+
+instalar Sass: npm install -g sass (para instalar com npm)
+
+iniciar a compilar cada vez que salvo o ficheiro .scss: sass --watch main.scss css/main.css
+
+- - - - -
+
+Tecnologias utilizadas:
+
+ - html
+ - sass
+ - css
+ - bootstrap
+ - foundation
+ - javascript
+ - es6
+ - php
+ - ubuntu
+ - docker
+ - kitematic
+ - wordpress
+ - drupal
+
+
+https://www.lcsgroup.it/wp-admin Silvia BePrime LCSBePrime2020!!
+
+[juicer name="lcs-group-0d600ebd-4ef2-453b-95b5-be85096ab67a"]
+
