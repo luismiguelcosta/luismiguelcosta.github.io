@@ -205,7 +205,14 @@ h2#typed-text-title {
 
 .box-contacts-internal i {
   color: #DE9271;
-  margin-right: 5px;
+}
+
+.box-contacts-internal div a span {
+  color: #666666;
+}
+
+.contact-icons {
+  width: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */
