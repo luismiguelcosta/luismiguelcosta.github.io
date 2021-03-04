@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900");
+
 @media (min-width: 576px) {
   .container {
     margin-top: 2vh;
+    margin-bottom: 2vh;
   }
 }
 @media (min-width: 768px) {
   .container {
     margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 }
 @media (min-width: 1200px) {
   .container {
     margin-top: 4vh;
+    margin-bottom: 4vh;
   }
 }
 
@@ -112,7 +116,7 @@ h2#typed-text-title {
   padding: 15px;
 }
 .col-12.box-contacts .morada {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .col-12.box-services {
@@ -165,6 +169,43 @@ h2#typed-text-title {
 
 .image-description {
   margin-top: 15px;
+}
+
+.box-portfolio-internal #carouselFade .carousel-control-prev .carousel-control-prev-icon {
+  display: none;
+}
+
+.box-portfolio-internal #carouselFade .carousel-control-prev::before {
+  content: "\f053";
+  font-family: 'FontAwesome';
+  color: #A4D2FA;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.box-portfolio-internal #carouselFade .carousel-control-next .carousel-control-next-icon {
+  display: none;
+}
+
+.box-portfolio-internal #carouselFade .carousel-control-next::before {
+  content: "\f054";
+  font-family: 'FontAwesome';
+  color: #A4D2FA;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.box-portfolio-internal > p > a {
+  color: #666666;
+}
+
+.box-portfolio-internal > p > a span {
+  color: #DE9271;
+}
+
+.box-contacts-internal i {
+  color: #DE9271;
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
