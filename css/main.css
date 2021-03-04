@@ -150,6 +150,18 @@ h2#typed-text-title {
   padding: 15px;
 }
 
+.box-presentation-internal .title {
+  margin-top: 15px;
+}
+
+.presentation-text {
+  margin-top: 15px;
+}
+
+.presentation-links {
+  margin-top: 35px;
+}
+
 .btn-outline-primary.button-cv-linkedin {
   color: #3d3d3d;
   background-color: whitesmoke;
@@ -164,7 +176,8 @@ h2#typed-text-title {
 }
 
 .button-cv-linkedin {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin-right: 20px;
 }
 
 .image-description {
