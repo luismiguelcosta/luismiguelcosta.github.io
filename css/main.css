@@ -6,17 +6,27 @@
     margin-bottom: 2vh;
   }
 }
+
 @media (min-width: 768px) {
   .container {
     margin-top: 3vh;
     margin-bottom: 3vh;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     margin-top: 4vh;
     margin-bottom: 4vh;
   }
+}
+
+.box-contacts > .box-contacts-internal > div > a {
+  text-decoration: none;
+}
+
+.box-portfolio > .box-portfolio-internal > p > a {
+  text-decoration: none;
 }
 
 h2#typed-text-title {
@@ -52,28 +62,35 @@ h2#typed-text-title {
     background-color: #A4D2FA;
   }
 }
+
 .homepage-boxes {
   padding: 15px;
 }
+
 .homepage-boxes .title-hidden {
   visibility: hidden;
 }
+
 .homepage-boxes h2,
 .homepage-boxes h3,
 .homepage-boxes h4 {
   font-size: 18px;
 }
+
 .homepage-boxes h2 {
   color: #888888;
   font-weight: bold;
 }
+
 .homepage-boxes h3 {
   font-weight: bold;
 }
+
 .homepage-boxes p {
   font-size: 14px;
   color: #666666;
 }
+
 .homepage-boxes h3.title {
   margin-bottom: 20px;
 }
@@ -87,6 +104,7 @@ h2#typed-text-title {
   padding: 10px 10px 10px 10px;
   background-clip: border-box;
 }
+
 .col-12.box-photo .box-internal-line {
   height: 100%;
   border: 2px solid whitesmoke;
@@ -97,6 +115,7 @@ h2#typed-text-title {
   color: #3d3d3d;
   padding: 10px 10px 10px 10px;
 }
+
 .col-12.box-presentation .box-presentation-internal {
   background-color: whitesmoke;
   height: 100%;
@@ -109,14 +128,32 @@ h2#typed-text-title {
   color: #3d3d3d;
   padding: 10px 10px 10px 10px;
 }
+
 .col-12.box-contacts .box-contacts-internal {
   background-color: whitesmoke;
   height: 100%;
   border: 2px solid #A4D2FA;
   padding: 15px;
 }
+
 .col-12.box-contacts .morada {
   margin-top: 20px;
+}
+
+.box-contacts .cellphone:hover i {
+  color: #666666;
+}
+
+.box-contacts .whatsapp:hover i {
+  color: #666666;
+}
+
+.box-contacts .email:hover i {
+  color: #666666;
+}
+
+.box-contacts .skype:hover i {
+  color: #666666;
 }
 
 .col-12.box-services {
@@ -124,16 +161,35 @@ h2#typed-text-title {
   color: #3d3d3d;
   padding: 10px 10px 10px 10px;
 }
+
 .col-12.box-services .box-services-internal {
   background-color: whitesmoke;
   height: 100%;
   border: 2px solid #DE9271;
   padding: 15px;
 }
+
 .col-12.box-services .icon {
   color: #888888;
   font-size: 30px;
 }
+
+.col-12.box-services .service-1:hover .icon {
+  color: #DE9271;
+}
+
+.col-12.box-services .service-2:hover .icon {
+  color: #DE9271;
+}
+
+.col-12.box-services .service-3:hover .icon {
+  color: #DE9271;
+}
+
+.col-12.box-services .service-4:hover .icon {
+  color: #DE9271;
+}
+
 .col-12.box-services h4 {
   color: #525252;
 }
@@ -143,11 +199,16 @@ h2#typed-text-title {
   color: #3d3d3d;
   padding: 10px 10px 10px 10px;
 }
+
 .col-12.box-portfolio .box-portfolio-internal {
   background-color: whitesmoke;
   height: 100%;
   border: 2px solid #A4D2FA;
   padding: 15px;
+}
+
+.box-portfolio p a:hover span {
+  color: #A4D2FA;
 }
 
 .box-presentation-internal .title {
@@ -163,15 +224,16 @@ h2#typed-text-title {
 }
 
 .btn-outline-primary.button-cv-linkedin {
-  color: #3d3d3d;
+  color: #666666;
   background-color: whitesmoke;
   border: 2px solid #A4D2FA;
   border-radius: 0px;
+  font-weight: bold;
 }
 
 .btn-outline-primary.button-cv-linkedin:hover {
   background-color: #A4D2FA;
-  color: #666666;
+  color: whitesmoke;
   border: 2px solid #A4D2FA;
 }
 
